@@ -12,19 +12,19 @@ import Username from './components/Username';
 const router = createBrowserRouter([
   {
     path : '/',
-    element : <Username />
+    element : <Username/>
   },
   {
     path : '/register',
-    element : <Register />
+    element : <Register/>
   },
   {
     path : '/reset',
-    element : <Reset />
+    element : <Reset/>
   },
   {
     path : '/recovery',
-    element : <Recovery />
+    element : <Recovery/>
   },
   {
     path : '/profile',
@@ -32,15 +32,15 @@ const router = createBrowserRouter([
   },
   {
     path : '/password',
-    element : <Password />
+    element : <Password/>
   },
   {
     path : '/*',
-    element : <PageNotFound />
+    element : <PageNotFound/>
   },
   {
     path : '/practice',
-    element : <Practice />
+    element : <Practice/>
   }
 ])
 
